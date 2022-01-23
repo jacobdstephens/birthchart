@@ -16,7 +16,7 @@ export default function Home() {
       </head>
 
       <body>
-        <!--Navbar-->
+        //<!--Navbar-->
         <div class="navbar">
             <div class="container flex">
                 <h1 align="center">Birth Chart</h1>
@@ -24,10 +24,10 @@ export default function Home() {
             </div>
         </div>
 
-        <!-- Cloud -->
+        //<!-- Cloud -->
         <section class="cloud py-2">
           <div class="container flex">
-          <!-- div class="showcase-form card">
+          //<!-- div class="showcase-form card">
 
                   <form id='simple_form'
                     method='POST'
@@ -79,7 +79,7 @@ export default function Home() {
           </div>
         </section>
 
-        <!-- Stats >
+        //<!-- Stats >
         <section>
           <div class="container">
           <h3 class="stats-heading text-center my-1">
@@ -95,7 +95,7 @@ export default function Home() {
         </section-->
 
         <section>
-            <!--Reading-->
+            //<!--Reading-->
             <h3 class="stats-heading text-center my-1">
                         Planets
             </h3>
