@@ -13,8 +13,8 @@ export default function Home() {
         <link rel="stylesheet" href="assets/css/utilities.css"/>
         <link rel="stylesheet" href="assets/css/lstyle.css"/>
         <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-        <Script src="/static/fetchLocationJSON.js"/>
-        <Script src="/static/showReading.js"/>
+        <Script src="static/fetchLocationJSON.js"/>
+        <Script src="static/showReading.js"/>
         <title>Birth Chart</title>
       </head>
 
