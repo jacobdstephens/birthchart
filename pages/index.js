@@ -19,7 +19,7 @@ export default function Home() {
 <!--Navbar-->
 <div class="navbar">
     <div class="container flex">
-        <h1 align="center">Astro Lab</h1>
+        <h1 align="center">Birth Chart</h1>
         <h2 align="center">Readings</h2>
     </div>
 </div>
