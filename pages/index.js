@@ -48,7 +48,7 @@ export default function Home() {
                     <input type="submit" value="Submit"/>
                 </form>
 
-              </div-->
+              </div>
               <div class="chart-card" id='chart'>
 
               <div class="showcase-form">
