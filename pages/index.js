@@ -145,7 +145,8 @@ export default function Home() {
 
 
         <script>    
-            async function fetchLocationJSON(event) {
+          async function fetchLocationJSON(event) 
+            {
                 event.preventDefault();
                 const form = event.target;
                 const url = form.action;
@@ -190,12 +191,12 @@ export default function Home() {
                     const simpleJSON = JSON.stringify(simpleForm);
 
                     const fetchOptions = {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                        Accept: "application/json",
-                        },
-                        body: simpleJSON,
+                      method: "POST",
+                      headers: {
+                          "Content-Type": "application/json",
+                          Accept: "application/json",
+                          },
+                      body: simpleJSON,
                     };
 
                     const response = await fetch(url, fetchOptions);
@@ -218,13 +219,14 @@ export default function Home() {
                     document.getElementById("mercury_reading").innerHTML = results.body['reading']['mercury'];
                     console.log(results.body);
                 } catch (error) {
-                  console.error(error);
+                console.error(error);
                 }
-                return;
+            return;
           }
-        const simple_form = document.getElementById("simple_form");
-        simple_form.addEventListener("submit", fetchLocationJSON);
+          const simple_form = document.getElementById("simple_form");
+          simple_form.addEventListener("submit", fetchLocationJSON);
         </script>
+  
         <script>
           function showReading() {
             var x = document.getElementById("myDIV");
