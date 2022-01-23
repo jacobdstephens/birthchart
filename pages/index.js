@@ -43,7 +43,7 @@ export default function Home() {
                     </div>
                     <div style="float:center;">
                         <label for="birthplace">Birth Place</label>
-                        <input type="text" id="birthplace" name="birthplace"/><br><br/>
+                        <input type="text" id="birthplace" name="birthplace"/><br><br>
                     </div>
                     <input type="submit" value="Submit"/>
                 </form>
