@@ -75,5 +75,5 @@ async function fetchLocationJSON(event) {
     }
     return;
 }
-//const simple_form = document.getElementById("simple_form");
-//simple_form.addEventListener("submit", fetchLocationJSON);
+const simple_form = document.getElementById("simple_form");
+simple_form.addEventListener("submit", fetchLocationJSON);
