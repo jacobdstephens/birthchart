@@ -35,15 +35,15 @@ export default function Home() {
                     align='center'>
                     <div style="float:center;">
                         <label for="birthday">Birthday:</label>
-                        <input type="date" id="birthday" name="birthday">
+                        <input type="date" id="birthday" name="birthday"/>
                     </div>
                     <div style="float:center;">
                         <label for="birthtime">Birthtime:</label>
-                        <input type="time" id="birthtime" name="birthtime">
+                        <input type="time" id="birthtime" name="birthtime"/>
                     </div>
                     <div style="float:center;">
                         <label for="birthplace">Birth Place</label>
-                        <input type="text" id="birthplace" name="birthplace"><br><br>
+                        <input type="text" id="birthplace" name="birthplace"/><br><br/>
                     </div>
                     <input type="submit" value="Submit"/>
                 </form>
@@ -59,16 +59,16 @@ export default function Home() {
                     align='center'>
                     <div class="form-control">
                         <label for="birthday">Birth Date: Year-Month-Day</label>
-                        <input type="text" id="birthday" name="birthday" placeholder="2021-02-01" required>
+                        <input type="text" id="birthday" name="birthday" placeholder="2021-02-01" required/>
 
                     </div>
                     <div class="form-control">
                         <label for="birthtime">Birth Time: 24HH:MM</label>
-                        <input type="text" id="birthtime" name="birthtime" placeholder="14:51" required>
+                        <input type="text" id="birthtime" name="birthtime" placeholder="14:51" required/>
                     </div>
                     <div class="form-control">
                         <label for="birthplace">Birth Place: City, State</label>
-                        <input type="text" id="birthplace" name="birthplace"><br><br>
+                        <input type="text" id="birthplace" name="birthplace"/><br><br/>
                     </div>
                     <input type="submit" value="Submit"/>
                 </form>
