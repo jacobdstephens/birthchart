@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
@@ -12,8 +13,8 @@ export default function Home() {
         <link rel="stylesheet" href="assets/css/utilities.css"/>
         <link rel="stylesheet" href="assets/css/lstyle.css"/>
         <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-        <script type="text/javascript" src="/static/fetchLocationJSON.js"></script>
-        <script type="text/javascript" src="/static/showReading.js"></script>
+        <Script src="/static/fetchLocationJSON.js"/>
+        <Script src="/static/showReading.js"/>
         <title>Birth Chart</title>
       </head>
 
