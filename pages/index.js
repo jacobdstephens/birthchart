@@ -68,7 +68,7 @@ export default function Home() {
                     </div>
                     <div class="form-control">
                         <label for="birthplace">Birth Place: City, State</label>
-                        <input type="text" id="birthplace" name="birthplace"/><br><br/>
+                        <input type="text" id="birthplace" name="birthplace"/><br/>
                     </div>
                     <input type="submit" value="Submit"/>
                 </form>
