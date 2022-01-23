@@ -24,10 +24,10 @@ export default function Home() {
             </div>
         </div>
 
-        //<!-- Cloud -->
+        // Cloud 
         <section class="cloud py-2">
           <div class="container flex">
-          //<!-- div class="showcase-form card">
+          //<div class="showcase-form card">
 
                   <form id='simple_form'
                     method='POST'
