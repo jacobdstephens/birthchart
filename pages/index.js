@@ -15,7 +15,7 @@ export default function Home() {
         <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
         <Script src="static/fetchLocationJSON.js"/>
         <Script src="static/showReading.js"/>
-        <title>Birth Chart</title>
+        <title>Peek Astrology</title>
       </head>
 
       <body>
